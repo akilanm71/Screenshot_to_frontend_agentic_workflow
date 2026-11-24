@@ -1,0 +1,54 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Generated uploads and projects
+uploads/
+generated_projects/
+outputs/
+artifacts/
+checkpoints/
+
+# Frontend dependencies
+node_modules/
+api-dashboard/node_modules/
+
+# Frontend build output
+api-dashboard/dist/
+api-dashboard/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
